@@ -1,0 +1,110 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 sans-serif;
+    color: #777;
+  }
+
+table, th, td {
+  table-layout:fixed;
+  color:white;
+  border: 1px solid white;
+  border-spacing: 3px;
+  padding: 3px;
+  text-align: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.firstimg, .secondimg{
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.firstimg {
+  background-image: url("Portrait.jpg");
+  min-height: 100%;
+}
+
+.secondimg {
+  background-image: url("Plant.jpg");
+  min-height: 400px;
+}
+
+ol,li{
+  text-align:center;
+  list-style-position: inside;
+}
+
+p{
+  text-align: center;
+  color:white;
+}
+
+.caption{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: left;
+  color: #000;
+}
+
+.caption h1.border {
+  text-align: center;
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h2{
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #fff;
+}
+
+.poem{
+  padding-top: 40px;
+  text-align: center;
+  background-color:transparent;
+  font-size:25px;
+  color: #f7f7f7;
+}
+.secondsech{
+  color:black;
+  text-align: center;
+  padding-left: 36px;
+}
+.secondsection{
+  color: black;
+  background-color:white;
+  text-align:center;
+  padding:50px 80px;
+}
+
+.thirdsection{
+  position:relative;
+  color:#ddd;
+  background-color:#90A5A9;
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
+}
+.fourthsection{
+  position:relative;
+  color:#111;
+  background-color:#282E34;
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
+}
